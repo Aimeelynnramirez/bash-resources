@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+    <meta name="description" content="A cool thing made with by art">
+      <!-- <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon"> -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+ <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <script>
+ const result = document.querySelector('#header1','#header2' ,'#top')
+ console.log(result);
+
+ </script>
+ <script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
+</script>
+
+
+<style>
+html{
+  background-color: grey !important;
+  height: 100%;
+  width:100%;
+  max-width: 100%;
+  max-height: 2400px;
+}
+body {
+  background-color: grey !important;
+color:black;
+padding: 2%;
+font-family: 'Open Sans', sans-serif;
+  height:100%;
+  width:100%;
+  max-height: 2400px;
+  max-width: 100%;
+
+/*background:url("https://cdn.pixabay.com/photo/2014/09/24/16/28/bricks-459299_1280.jpg");*/
+
+}
+h1{
+  text-decoration: underline ;
+}
+a{
+color:teal;
+  }
+a:hover{
+  color:white;
+
+}
+.container{
+box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+border-top-left-radius:1em;
+border-top-right-radius: 1em;
+border-bottom-left-radius: 1em;
+border-bottom-right-radius: 1em;
+background-color:white !important;
+}
+.modal-row-header{
+  display: inline-grid;
+
+}
+
+.introduction {
+    max-width: 200px;
+    display: inline;
+  border-top-left-radius:1.2em;
+  border-top-right-radius: 1.2em;
+
+/*  background: linear-gradient(to right, transparent, rgba(255,	228,	225));*/
+
+    }
+
+.button {
+  padding: 100px;
+   background-image: url("https://i.imgur.com/1amXmrF.jpg");
+color:black;
+background-size: cover;
+  width:100%;
+height:297px;
+  border-top-left-radius:1.2em;
+  border-top-right-radius: 1.2em;
+  border-bottom-left-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
+
+}
+
+@media screen and (max-width: 400px) {
+  div.button { width: 100px; }
+  div.btn-lg{ width: 100px; }
+
+}
+@media screen and (max-width: 200px) {
+  div.button { width: 100px; }
+  div.btn-lg{ width: 100px; }
+
+}
+@media screen and (max-width: 100px) {
+  div.button { width: 100px; }
+  div.btn-lg{ width: 100px; }
+
+}
+  .button:hover{
+    border-color: red !important;
+    width:100%;
+  height:297px;
+    border-style: groove;
+    border-top-left-radius:1.2em;
+    border-top-right-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+
+  }
+
+  @media screen and (max-width: 400px) {
+    div.btn-lg{ width: 100px; }
+
+
+  }
+  @media screen and (max-width: 200px) {
+    div.btn-lg{ width: 100px; }
+
+
+  }
+  @media screen and (max-width: 100px) {
+    div.btn-lg { width: 50px; }
+
+
+  }
+  .btn {
+    background: transparent;
+  }
+  .glyphicon {
+    color:white;
+  }
+  .glyphicon-open{
+    color:teal;
+  }
+  .glyphicon-envelope{
+    color:lightgrey;
+  }
+  .glyphicon-search{
+      color:lightgrey;
+    }
+  .button:active {
+    border-color: teal !important;
+    width:100%;
+  height:297px;
+   border-style: groove;
+    border-top-left-radius:1.2em;
+    border-top-right-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+
+  }
+
+  @media screen and (max-width: 400px) {
+    div.button { width: 100px; }
+    button.btn-lg{ display: hidden; }
+  span.glyphicon-globe{ display: hidden; }
+
+
+  }
+  @media screen and (max-width: 200px) {
+    div.button { width: 100px; }
+    button.btn-lg{ display: hidden; }
+    span.glyphicon-globe{ display: hidden; }
+
+
+  }
+  @media screen and (max-width: 100px) {
+    div.button { width: 100px; }
+    button.btn-lg{ display: hidden; }
+  span .glyphicon-globe{ display: hidden; }
+
+  }
+
+button{
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+   width:100%;
+
+
+}
+
+button:hover {
+  border-color: orange !important;
+  border-style: groove;
+}
+
+  @media screen and (max-width: 400px) {
+    div.button { width: 100px; }
+
+
+    button.btn-lg{ display: hidden !important;}
+  span.glyphicon-globe{display: hidden !important;}
+
+
+  }
+  @media screen and (max-width: 200px) {
+    div.button { width: 100px; }
+
+    button.btn-lg{ display: hidden !important;}
+  span.glyphicon-globe{display: hidden !important;}
+
+
+  }
+  @media screen and (max-width: 100px) {
+    div.button { width: 100px; }
+
+    button.btn-lg{ display: hidden !important;}
+  span.glyphicon-globe{ display: hidden !important;}
+
+
+}
+
+.nav  {
+
+  float:right !important;
+color:teal !important;
+width:100%;
+background: #eae0c8;
+  text-align: center;
+}
+
+  @media screen and (max-width: 400px) {
+    div.button { width: 100px; }
+
+
+    button.btn-lg{ display: hidden !important;}
+  span.glyphicon-globe{ display: hidden !important;}
+
+
+  }
+  @media screen and (max-width: 200px) {
+    div.button { width: 100px; }
+
+    button.btn-lg{ display: hidden !important;}
+  span.glyphicon-globe{ display: hidden !important;}
+
+
+  }
+  @media screen and (max-width: 100px) {
+    div.button { width: 100px; }
+    button.btn-lg{ display: hidden !important;}
+  span.glyphicon-globe{ display: hidden !important;}
+
+  }
+
+
+      hr{
+        font-family: 'Open Sans', sans-serif;
+      }
+      code{
+        color:teal !important;
+  background: lightgrey;
+      }
+  p {
+    background-color: #eae0c8;
+
+      width:100%;
+      height: 100%; /* Full height */
+      font-family: 'Open Sans', sans-serif;
+      max-width: inherit;/* Full width */
+      max-height: inherit;/* Full width */
+
+    }
+
+    </style>
+    </head>
+    <body >
+
+  <div class="container" id="top">
+
+<div class="introduction">
+
+<a class="nav" href="#header2">Information</a>  <a class="nav" href="#commands"> commands </a>
+<a class="nav" href="#bottom">bottom of page </a><a class="nav" href="#top">top of page </a>
+  <button type="button" class="btn btn-default morbid">
+  <a href="mailto:aimeelynnramirez@gmail.com"><span class="glyphicon glyphicon-envelope" > </span></a></button>
+
+
+</div>
+
+
+<div class="modal-row-header" id="commands">
+  <h1>
+    Shortcut list of command lines:
+Bash Scripting</h1>
+
+  <div class="button" id="#header2">
+  <h3>  Bash Resource  </h3>
+<br>
+
+    <a link href="https://www.google.com/"  class="btn btn-lg">
+    <div class="btn" style="float:right !important;">
+
+        <span class="glyphicon glyphicon-globe" alt="go to Google for help">
+        </span>
+
+    </div>
+    <br>
+
+
+<a href="https://github.com/Aimeelynnramirez/.git"> Fork it here!</a>
+
+</div>
+  <hr>
+Basics
+  <hr>
+  <code>
+  <hr>
+# Declaring a variable, no space after equal sign
+variable="Hello world."
+  <hr>
+# Using the variable
+  <hr>
+echo $variable
+  <hr>
+# print an expression
+  <hr>
+echo $(( 660 + 6 ))
+  <hr>
+# Builtin variables:
+  <hr>
+echo "Last program return value: $?"
+echo "Script's PID: $$"
+echo "Number of arguments: $#"
+echo "Scripts arguments: $@"
+echo "Scripts arguments separated in different variables: $1 $2..."
+  <hr>
+# Reading a value from input:
+echo "What's your name?"
+read name     # no need to declare a new variable
+echo Hello, $name!
+  <hr>
+Conditionals
+  <hr>
+# basic if structure
+if [ $username -ne $USER ]
+then
+    echo "Your name isn't your username"
+else
+    echo "Your name is your username"
+fi
+  <hr>
+# conditional execution
+ <hr>
+echo "Always executed" || echo "Only executed if first command fails"
+echo "Always executed" && echo "Only executed if first command does NOT fail"
+ <hr>
+# use square brackets for multiple conditions
+# To use && and || with if statements, you need multiple pairs of square brackets:
+ <hr>
+if [ $userName == "lucy666" ] && [ $age -eq 15 ]
+then
+    echo "This will run if $userName is lucy666 AND $Age is 66."
+fi
+
+if [ $userName == "bastard21" ] || [ $userName == "evilclown" ]
+then
+    echo "This will run if $userName is bastard21 OR evilclown."
+fi
+       <hr>
+Switch Statements
+  <hr>
+case "$myVar" in
+    # List patterns for the conditions you want to meet
+    0) echo "There is a zero.";;
+    1) echo "There is a one.";;
+    *) echo "It is not null.";;
+esac
+
+<hr>
+Loop Statements
+   <hr>
+# print variable 3 times
+       <hr>
+for myVar in {1..3}
+do
+    echo "$myVar"
+done
+ <hr>
+# Or write it the "traditional for loop" way:
+  <hr>
+for ((i=1; i <= 3; i++))
+do
+    echo $i
+done
+  <hr>
+# can be used to act on files..
+# This will run the command 'cat' on file1 and file2
+  <hr>
+for myVar in file1 file2
+do
+    cat "$myVar"
+done
+ <hr>
+# output from a command
+  <hr>
+# This will cat the output from ls command.
+                  <hr>
+for x in $(ls)
+do
+    cat "$x"
+done
+ <hr>
+# while loop:
+       <hr>
+while [ true ]
+do
+    echo "loop body..."
+    break
+done
+  <hr>
+Functions
+ <hr>
+# define a function
+       <hr>
+function foo ()
+{
+    echo "Arguments work just like script arguments: $@"
+    echo "And: $1 $2..."
+    echo "This is a function"
+    return 0
+}
+  <hr>
+# alternatively, you can also just declare without the function keyword
+  <hr>
+bar ()
+{
+    echo "Another way to declare functions!"
+    return 0
+}
+ <hr>
+# Calling you function
+       <hr>
+foo "My name is" $name
+Finding files
+ <hr>
+# find files that start with the word "text"
+       <hr>
+find -name "text"
+ <hr>
+# find only directories
+       <hr>
+find /var/log -name "syslog" -type d
+ <hr>
+# find only files
+  <hr>
+  find -type f
+    <hr>
+Extract, sort and filter data
+ <hr>
+grep <someText> <fileName> = search for text in file
+        -i = case insensitive
+        -I = exclude binary files
+grep -E ^<text> <fileName> = search start of lines with the word text <hr>
+sort <fileName> = sort alphabetically <hr>
+sort -o <file> <outputFile> = write result to a file <hr>
+sort -r <fileName> = sort in reverse <hr>
+sort -R <fileName> = sort randomly <hr>
+wc <fileName> = word count <hr>
+<hr>
+options:
+<hr>
+  -l (lines), -w (words), -c (byte size), -m (number of characters)
+cut = cut a part of a file
+<hr>
+options:
+<hr>
+  -c --> Ex, cut -c 2-5 names.txt
+  (cut the characters 2 to 5 of each line)
+  -d (delimiter) (-d & -f good for .csv files)
+  -f (# of field to cut)
+      <hr>
+ </code>
+</div>
+
+<hr>
+
+Links:
+<a href="http://www.postgresqltutorial.com/wp-content/uploads/2017/02/PostgreSQL-Cheat-Sheet-768x522.png">sources</a>
+<hr>
+
+<div class="LI-profile-badge"
+ data-version="v1"
+ data-size="medium"
+ data-locale="en_US"
+ data-type="horizontal"
+ data-theme="light"
+ data-vanity="alramirez253">
+ <a class="LI-simple-link"
+  href='https://www.linkedin.com/in/alramirez253?trk=profile-badge'>Aimee Lynn R.</a></div>
+
+ </div>
+ <div id="bottom"> </div>
+  </body>
+
+    </html>
